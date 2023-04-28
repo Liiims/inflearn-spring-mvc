@@ -10,6 +10,8 @@ import java.io.IOException;
 
 /**
  * 파라미터 전송 기능
+ * - GET URL 쿼리 파라미터 형식 지원
+ * - POST HTML Form 형식 지원
  */
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
